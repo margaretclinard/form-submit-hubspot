@@ -1,0 +1,23 @@
+{
+  "name": "form-submit-hubspot",
+  "version": "0.0.0",
+  "authors": [
+    "Margaret Clinard <margaret.clinard@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
