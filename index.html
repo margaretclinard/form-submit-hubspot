@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Submitting a Form to Hubspot</title>
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
   </head>
-  <body><!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--></body>
-    <div class="col-md-7">
-      <h1>Submitting an External Form to Hubspot</h1>
-      <p><a target="_blank" href="http://developers.hubspot.com/docs/methods/forms/submit_form">More info</a></p>
-      <form id="test-form">
-        <div class="form-group">
-          <label>First Name</label>
-          <input type="text" class="form-control" name="firstName">
+  <body><!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-8">
+          <h1>Submitting an External Form to Hubspot</h1>
+          <p><a target="_blank" href="http://developers.hubspot.com/docs/methods/forms/submit_form">More info</a></p>
+          <form id="test-form">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" class="form-control" name="firstName">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" class="form-control" name="lastName">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label>Last Name</label>
-          <input type="text" class="form-control" name="lastName">
-        </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" class="form-control" name="email">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+        <div class="col-xs-4"></div>
+      </div>
     </div>
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="main.js"></script>

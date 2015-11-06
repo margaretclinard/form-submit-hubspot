@@ -5,9 +5,7 @@ $( "#test-form" ).submit(function (event) {
       fName = $form.find("input[name='firstName']").val(),
       lName = $form.find("input[name='lastName']").val(),
       email = $form.find("input[name='email']").val(),
-      portal_id = hubspot_portal_id,
-      form_guid = hubspot_form_guid,
-      url = 'https://forms.hubspot.com/uploads/form/v2/' + portal_id + '/' + form_guid;
+      url = 'https://forms.hubspot.com/uploads/form/v2/301979/9eb02cf8-c995-46b2-a21a-55b21126d5f9';
 
   $.post(url + 'firstname=' + fName + '&lastname=' + lName + '&email=' + email, { firstname: fName, lastname: lName, email: email })
    .done(function(data){
